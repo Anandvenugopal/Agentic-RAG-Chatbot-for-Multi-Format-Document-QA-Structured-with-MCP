@@ -1,0 +1,20 @@
+
+
+# --- Core Frameworks & API Wrappers ---
+langchain
+langchain-core
+langchain-community
+groq
+pinecone-client
+python-dotenv
+streamlit
+
+# --- Langchain Integrations ---
+langchain-groq
+langchain-pinecone
+
+# --- Embeddings Model ---
+sentence-transformers
+
+# --- Document Parsing (Unified) ---
+unstructured[all-docs]
