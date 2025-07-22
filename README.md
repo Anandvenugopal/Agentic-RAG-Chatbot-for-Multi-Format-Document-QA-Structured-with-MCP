@@ -70,7 +70,7 @@ python-dotenv
 streamlit
 langchain-groq
 sentence-transformers
-"unstructured[all-docs]"
+unstructured[all-docs]
 ```
 
 ### 5. Install Dependencies
