@@ -47,7 +47,7 @@ cd agentic-rag-chatbot
 **On Windows:**
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+.venv\Scripts\activate
 ```
 
 **On macOS/Linux:**
