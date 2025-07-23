@@ -114,12 +114,13 @@ streamlit run app.py
 
 ```text
 agentic-rag-chatbot/
-├── .env                  # API keys (not committed)
-├── app.py                # Streamlit app
-├── mcp.py                # MCP message structure
-├── ingestion_agent.py    # Parsing & chunking
-├── retrieval_agent.py    # Embedding & retrieval
-├── llm_response_agent.py # Answer generation
-├── orchestrator.py       # Workflow management
-└── requirements.txt      # Python dependencies
+├── .env                                           # API keys (not committed)
+├── app.py                                         # Streamlit app
+├── mcp.py                                         # MCP message structure
+├── ingestion_agent.py                             # Parsing & chunking
+├── retrieval_agent.py                             # Embedding & retrieval
+├── llm_response_agent.py                          # Answer generation
+├── orchestrator.py                                # Workflow management
+├──Agent-Based-Architecture-with-MCP-Integration   # presntation
+└── requirements.txt                               # Python dependencies
 ```
