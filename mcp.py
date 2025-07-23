@@ -14,7 +14,6 @@ def create_mcp_message(sender, receiver, msg_type, payload=None):
         "payload": payload if payload is not None else {}
     }
 
-# This part is just for testing this file directly, it's safe to keep.
 if __name__ == "__main__":
     print("--- Testing MCP Message Creation ---")
     
