@@ -1,4 +1,4 @@
-# ingestion_agent.py (Refactored for unstructured)
+# ingestion_agent.py 
 import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from unstructured.partition.auto import partition
@@ -50,7 +50,7 @@ class IngestionAgent:
 
 # --- Let's test this step ---
 if __name__ == "__main__":
-    # Create a dummy file to test
+    # Created a dummy file to test
     with open("test.txt", "w") as f:
         f.write("This is a test document powered by unstructured. It should handle this easily.\n" * 50)
         f.write("The agent will parse this text file and split it into chunks using the new library.")
